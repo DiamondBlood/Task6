@@ -1,0 +1,22 @@
+﻿<Window x:Class="Task6_7_.AddCustomer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task6_7_"
+        mc:Ignorable="d"
+        Title="AddCustomer" Height="360" Width="522">
+    <Grid Margin="0,0,0,-5">
+        <Label FontSize="20 " Content="Введите фамилию" HorizontalAlignment="Left" Height="33" Margin="57,74,0,0" VerticalAlignment="Top" Width="229"/>
+        <Label FontSize="20 " Content="Введите адрес" HorizontalAlignment="Left" Height="33" Margin="57,112,0,0" VerticalAlignment="Top" Width="229"/>
+        <Label FontSize="20 " Content="Введите баланс" HorizontalAlignment="Left" Height="33" Margin="57,150,0,0" VerticalAlignment="Top" Width="229"/>
+        <Label FontSize="20 " Content="Введите Номер" HorizontalAlignment="Left" Height="33" Margin="57,188,0,0" VerticalAlignment="Top" Width="229"/>
+        <TextBox x:Name="TextBoxFam" HorizontalAlignment="Left" Height="19" Margin="280,88,0,0" Text="&#xA;" TextWrapping="Wrap" VerticalAlignment="Top" Width="180"/>
+        <TextBox x:Name="TextBoxAddress" HorizontalAlignment="Left" Height="23" Margin="280,122,0,0" Text="&#xA;" TextWrapping="Wrap" VerticalAlignment="Top" Width="180"/>
+        <TextBox x:Name="TextBoxBalance" HorizontalAlignment="Left" Height="24" Margin="280,159,0,0" Text="&#xA;" TextWrapping="Wrap" VerticalAlignment="Top" Width="180"/>
+        <TextBox x:Name="TextBoxNumber" HorizontalAlignment="Left" Height="20" Text="&#xA;" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" Margin="280,194,0,0"/>
+        <Button FontSize="20" Content="OK" HorizontalAlignment="Left" Height="28" Margin="159,257,0,0" VerticalAlignment="Top" Width="94" Click="Button_Click"/>
+        <Button FontSize="20" Content="Cancel" HorizontalAlignment="Left" Height="28" Margin="299,257,0,0" VerticalAlignment="Top" Width="114" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>

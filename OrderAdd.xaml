@@ -1,0 +1,22 @@
+﻿<Window x:Class="Task6_7_.OrderAdd"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task6_7_"
+        mc:Ignorable="d"
+        Title="OrderAdd" Height="315" Width="528">
+    <Grid Margin="0,0,0,-5">
+        <Label FontSize="20 " Content="Введите кол-во" HorizontalAlignment="Left" Height="33" Margin="60,117,0,0" VerticalAlignment="Top" Width="230"/>
+        <Label FontSize="20 " Content="Введите лимит" HorizontalAlignment="Left" Height="33" Margin="60,155,0,0" VerticalAlignment="Top" Width="230"/>
+        <TextBox x:Name="TextBoxCsId" FontSize="20" HorizontalAlignment="Left" Height="25" Margin="314,56,0,0" Text="&#xA;" TextWrapping="Wrap" VerticalAlignment="Top" Width="180"/>
+        <TextBox x:Name="TextBoxCount" HorizontalAlignment="Left" Height="24" Margin="314,126,0,0" Text="&#xA;" TextWrapping="Wrap" VerticalAlignment="Top" Width="180"/>
+        <TextBox x:Name="TextBoxLimit" HorizontalAlignment="Left" Height="23" Text="&#xA;" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" Margin="314,165,0,0"/>
+        <Button FontSize="20" Content="OK" HorizontalAlignment="Left" Height="28" Margin="162,224,0,0" VerticalAlignment="Top" Width="94" Click="Button_Click"/>
+        <Button FontSize="20" Content="Cancel" HorizontalAlignment="Left" Height="28" Margin="302,224,0,0" VerticalAlignment="Top" Width="114" Click="Button_Click_1"/>
+        <Label FontSize="20 " Content="Введите название товара" HorizontalAlignment="Left" Height="33" Margin="20,76,0,0" VerticalAlignment="Top" Width="268"/>
+        <TextBox x:Name="TextBoxStuff" FontSize="20" HorizontalAlignment="Left" Height="23" Margin="314,92,0,0" Text="&#xA;" TextWrapping="Wrap" VerticalAlignment="Top" Width="180"/>
+        <Label FontSize="20" Content="Введите ID Покупателя" HorizontalAlignment="Left" Height="33" Margin="57,48,0,0" VerticalAlignment="Top" Width="229"/>
+
+    </Grid>
+</Window>
